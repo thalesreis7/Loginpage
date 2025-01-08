@@ -12,7 +12,7 @@ export default {
       'lg': '768px',
       'xl': '1025px',
       '2xl': '1281px',
-    }
+    },
   },
   plugins: [],
 }
