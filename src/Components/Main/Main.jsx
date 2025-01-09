@@ -17,18 +17,19 @@ export default function Main() {
           </figcaption>
         </div>
       </section>
-      {/* APARTIR DAQUI */}
-      <section class="item forms">
-        <form action="">
-          <label htmlFor="box">E-mail</label>
-          <input id="box" type="email" name="E-mail" placeholder='exemplo@gmail.com' required />
+      <section class=" border border-red-700 xsm:h-[212vh]  ">
+        <form action="" class="xsm:w-[90vw] font-body flex-col justify-between">
+          <label htmlFor="box" class="text-[0.7rem] font-bold">E-mail</label>
+          {/* Fazer style dos inputs */}
+          <input id="box" type="email" name="E-mail" placeholder='exemplo@gmail.com' required class="xsm:w-[70vw]"
+          />
 
-          <label htmlFor="text">Senha</label>
+          <label htmlFor="text" class="text-[0.7rem] font-bold">Senha</label>
           <input id="text" type="password" name="Senha" placeholder='*********' required />
 
-          <label htmlFor="true">Lembre de min</label>
+          <label htmlFor="true" class="text-[0.7rem] font-bold">Lembre de min</label>
           <input id='true' type="radio" name='user'/>
-          <p>Esqueceu sua senha?</p>
+          <p class="text-[0.7rem] font-bold">Esqueceu sua senha?</p>
 
           <button>Entrar na conta</button>
           <butto>Ou faça o login com o Google</butto>
