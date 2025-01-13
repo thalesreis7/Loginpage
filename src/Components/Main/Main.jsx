@@ -20,13 +20,12 @@ export default function Main() {
       <section class=" border border-red-700 xsm:h-[212vh]  ">
         <form action="" class="xsm:w-[90vw] font-body flex-col justify-between">
           <label htmlFor="box" class="text-[0.7rem] font-bold">E-mail</label>
-          {/* Fazer style dos inputs */}
-          <input id="box" type="email" name="E-mail" placeholder='exemplo@gmail.com' required class="xsm:w-[70vw]"
+          <input id="box" type="email" name="E-mail" placeholder='exemplo@gmail.com' required class="xsm:w-[85vw] bg-gray-500/30 rounded-sm text-sm text-center outline-none"
           />
 
           <label htmlFor="text" class="text-[0.7rem] font-bold">Senha</label>
-          <input id="text" type="password" name="Senha" placeholder='*********' required />
-
+          <input id="text" type="password" name="Senha" placeholder='*********' required class="xsm:w-[86vw] h-[14vh] bg-gray-500/30 rounded-sm text-sm pl-1 pt-1 outline-none"/>
+          {/* Stop HERE */}
           <label htmlFor="true" class="text-[0.7rem] font-bold">Lembre de min</label>
           <input id='true' type="radio" name='user'/>
           <p class="text-[0.7rem] font-bold">Esqueceu sua senha?</p>
