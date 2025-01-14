@@ -25,11 +25,12 @@ export default function Main() {
 
           <label htmlFor="text" class="text-[0.7rem] font-bold">Senha</label>
           <input id="text" type="password" name="Senha" placeholder='*********' required class="xsm:w-[86vw] h-[14vh] bg-gray-500/30 rounded-sm text-sm pl-1 pt-1 outline-none"/>
-          {/* Stop HERE */}
-          <label htmlFor="true" class="text-[0.7rem] font-bold">Lembre de min</label>
-          <input id='true' type="radio" name='user'/>
-          <p class="text-[0.7rem] font-bold">Esqueceu sua senha?</p>
-
+          <div class=" border border-green-600 flex-col items-stretch">
+            <input id='true' type="radio" name='user'/>
+            <label htmlFor="true" class="xsm: text-[0.7rem] font-bold text-right">Lembre de min</label>
+            <p class="text-[0.7rem] font-bold text-green-600 cursor-pointer">Esqueceu sua senha?</p>
+          </div>
+           {/* Stop HERE */}
           <button>Entrar na conta</button>
           <butto>Ou faça o login com o Google</butto>
         </form>
